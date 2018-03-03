@@ -30,7 +30,7 @@ def get_names():
 		r=str(a)
 		s=r[3:len(r)-2]
 		arr.append(s)
-		#print s
+		print s
 	return arr
 #arr contains all table names 
-
+table_names=get_names()
