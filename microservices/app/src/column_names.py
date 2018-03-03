@@ -37,4 +37,4 @@ def get_col(table_name):
 		print s
 	return arr
 #arr contains all column names
-get_col("'teacher'")
+col_names=get_col("'teacher'")
