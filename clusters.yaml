@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: normally12-hasura
+  data: null
+  kubeContext: normally12
+  name: normally12
