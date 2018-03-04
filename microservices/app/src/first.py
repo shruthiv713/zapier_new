@@ -81,7 +81,7 @@ def get_col(table_name):
 		r=str(a)
 		s=r[3:len(r)-2]
 		arr.append(s)
-		print s
+		#print s
 	return arr
 @app.route("/insert",methods=['GET', 'POST'])
 def get_articles():
