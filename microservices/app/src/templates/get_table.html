@@ -14,7 +14,7 @@
             
 			</div>
 	<form method="POST" action="/result">
-			<label >Table Names</label>
+			<label >Tables in cluster</label>
 			<select name="table_name">
   				{% for r in names %}
           				 <option value="{{ r }}">{{r}}</option>
@@ -22,7 +22,7 @@
 	
 			</select>
 
-			<input type="submit" class="loginbtn" value="Login" id="btnSubmit">
+			<input type="submit" class="loginbtn" value="Select table" id="btnSubmit">
         </form>
     </div>
 </body>

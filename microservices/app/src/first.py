@@ -79,7 +79,7 @@ def get_col(table_name):
 	arr=[] 
 	for a in res[1:]:
 		r=str(a)
-		s=r[3:len(r)-2]
+		s=r[2:len(r)-2]
 		arr.append(s)
 		#print s
 	return arr
