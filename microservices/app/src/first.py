@@ -91,7 +91,7 @@ def get_articles():
 	
 	diction={}
 	#print "key value"
-	for key, value in result.iteritems():
+	for key, value in result.items():
 		
 		#print value		
 		diction[key]=value
