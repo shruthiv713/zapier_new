@@ -33,7 +33,7 @@ def get_names():
 	arr=[]
 	for a in res[2:]:
 		r=str(a)
-		s=r[3:len(r)-2]
+		s=r[2:len(r)-2]
 		arr.append(s)
 		
 	
