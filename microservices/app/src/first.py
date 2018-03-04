@@ -35,7 +35,7 @@ def get_names():
 		r=str(a)
 		s=r[3:len(r)-2]
 		arr.append(s)
-		print s
+		
 	
 	return render_template('get_table.html',names=arr)
 @app.route("/result" , methods=['GET', 'POST'])
@@ -86,14 +86,14 @@ def get_col(table_name):
 @app.route("/insert",methods=['GET', 'POST'])
 def get_articles():
 	result = request.form
-	print "Table name*******"
+	#print "Table name*******"
 	global tname
-	print tname
+	
 	diction={}
-	print "key value"
+	#print "key value"
 	for key, value in result.iteritems():
-		print key
-		print value		
+		
+		#print value		
 		diction[key]=value
 	r = json.dumps(diction)
 	loaded_r = json.loads(r)
