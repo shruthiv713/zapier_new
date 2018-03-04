@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "hotel"("id" integer NOT NULL, "name" text NOT NULL, "type"
+      text , "city" text , "address" text , PRIMARY KEY ("name") )
+  type: run_sql
+- args:
+    name: hotel
+  type: add_existing_table_or_view
