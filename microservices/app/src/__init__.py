@@ -7,8 +7,4 @@ app = Flask(__name__)
 # from .hasura import hasura_example
 # app.register_blueprint(hasura_examples)
 
-from .server import *
-from .data import *
-from .auth import *
-from .filestore import *
-from .pro import *
+from .first import *
