@@ -1,6 +1,8 @@
+from src import app
 from flask import Flask,jsonify,request,render_template,make_response,abort
 import requests
 import json
+
 tname=""
 app=Flask(__name__,template_folder='templates')
 @app.route('/')

@@ -1,5 +1,5 @@
 from flask import Flask
-
+from src import app
 app = Flask(__name__)
 
 # This line adds the hasura example routes form the hasura.py file.
